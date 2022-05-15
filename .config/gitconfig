@@ -1,0 +1,17 @@
+[user]
+	email = 1054602234@qq.com
+	name = desktop-niu
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+	slog = log --decorate --oneline --graph --all
+[credential]
+	helper = cache
+[core]
+	editor = vim
+	autocrlf = false
